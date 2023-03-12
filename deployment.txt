@@ -1,0 +1,23 @@
+Step 1:
+Download and install Python (v3+) and MongoDB.
+
+Note the MongoDB installation path, which would be
+C:\Program Files\MongoDB
+
+Step 2:
+Run mongod.exe from MongoDB Folder
+
+C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe
+
+Note: If this is crashing, probably due to exit code 100.
+To resolve this, create a folder path: C:\data\db
+
+Step 3:
+Run MyBankCardsManager\Load MongoDB Data\LoadData.py script
+
+Step 4:
+Run MyBankCardsManager\drivercode.py
+
+Step 5:
+Check accessibility by reaching
+http://localhost:7000/MyBankCardsManager
